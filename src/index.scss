@@ -13,7 +13,7 @@
   --light-salmon-100: hsl(22.2,100%,91%);
   --light-salmon-500: hsl(21.8,98.6%,71.6%);
 
-  --text-gradient: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);;
+  --text-gradient: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
   --gradient: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
 
   /*  Typography  */
@@ -85,6 +85,11 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+li,
+ul {
+  list-style: none;
 }
 
 img, picture, video, canvas, svg {

@@ -1,5 +1,12 @@
+import { Header } from "../common/header"
+import { Hero } from "../hero"
+
 export const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <div>
+      <Header>
+        <Hero/>
+      </Header>
+    </div>
   )
 }
