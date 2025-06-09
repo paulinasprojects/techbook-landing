@@ -1,0 +1,37 @@
+.read-grow-section {
+  margin-top: 120px;
+  padding-left: 135px;
+  padding-right: 135px;
+  padding-bottom: 105px;
+  display: flex;
+  gap: 80px;
+  max-width: 1440px;
+}
+
+.read-grow-right-container h2 {
+  color: var(--neutral-900);
+  font-size: var(--fs-50);
+  line-height: var(--line-height-130);
+  letter-spacing: var(--letter-spacing-2);
+  font-weight: var(--fw-semibold); 
+  margin-top: 51px;
+}
+
+.read-grow-right-list {
+  margin-top: 34px;
+}
+
+.read-grow-right-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.read-grow-right-list li {
+  display: flex;
+  gap: 14px;
+  color: var(--neutral-700);
+  font-size: var(--fs-20);
+  line-height: var(--line-height-140);
+  letter-spacing: var(--letter-spacing-5);
+}
