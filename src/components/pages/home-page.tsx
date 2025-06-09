@@ -1,3 +1,4 @@
+import { AverageBookClub } from "../average-book-club"
 import { Header } from "../common/header"
 import { Hero } from "../hero"
 import { ReadGrowSection } from "../read-grow-section"
@@ -9,6 +10,7 @@ export const Homepage = () => {
         <Hero/>
       </Header>
       <ReadGrowSection/>
+      <AverageBookClub/>
     </div>
   )
 }

@@ -1,0 +1,40 @@
+.average-book-club-section {
+  padding-left: 135px;
+  padding-right: 135px;
+  padding-bottom: 120px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  max-width: 1440px;
+}
+
+.average-book-club-left h2 {
+  margin-top: 134px;
+  font-size: var(--fs-50);
+  line-height: var(--line-height-130);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--letter-spacing-2);
+}
+
+.average-book-club-left p {
+  margin-top: 24px;
+   color: var(--neutral-700);
+  font-size: var(--fs-20);
+  line-height: var(--line-height-140);
+  letter-spacing: var(--letter-spacing-5);
+  font-family: var(--ff-inter);
+}
+
+.average-book-club-left span {
+  font-weight: var(--fw-semibold);
+}
+
+.average-book-club-right {
+  position: relative;
+}
+
+.average-book-club-technologies {
+  position: absolute;
+  bottom: 20px;
+  left: -80px;
+}
