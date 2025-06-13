@@ -38,3 +38,25 @@ export const readGrow = [
     text: "Author Q&A sessions with tech thought leaders",
   },
 ];
+
+export const readingJourneyData = [
+  {
+    id: 1,
+    text: "Choose your membership tier",
+    image: "src/assets/pattern-arrow.svg",
+  },
+  {
+    id: 2,
+    text: "Get your monthly book selection",
+    image: "src/assets/pattern-arrow.svg",
+  },
+  {
+    id: 3,
+    text: "Join our discussion forums",
+    image: "src/assets/pattern-arrow.svg",
+  },
+  {
+    id: 4,
+    text: "Attend exclusive meetups",
+  },
+];

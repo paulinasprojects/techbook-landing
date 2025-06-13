@@ -1,0 +1,59 @@
+.reading-journey-main-container {
+  margin: auto;
+   background: url("src/assets/bg-pattern.svg");
+  background-repeat: repeat;
+   background-color: var(--neutral-100);
+   padding-top: 80px;
+   padding-bottom: 80px;
+   padding-left: 60px;
+   padding-right: 60px;
+   max-width: 1170px;
+   border-radius: var(--border-radius-12);
+}
+
+.reading-journey-main-container h2 {
+  text-align: center;
+  font-size: var(--fs-50);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--letter-spacing-5);
+  line-height: var(--line-height-120);
+}
+
+.reading-journey-content-container {
+  margin-top: 64px;
+}
+
+.reading-journey-data-container {
+  display: flex;
+  align-items: center;
+}
+
+.reading-journey-data-container li {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.reading-journey-data-container div {
+  display: flex;
+  align-items: center;
+  gap: 107px;
+}
+
+.reading-journey-data-container span {
+  font-size: var(--fs-24);
+  border: 2.5px solid var(--neutral-900);
+  border-radius: var(--border-radius-4);
+  padding-block: 8px;
+  padding-inline: 12px;
+}
+
+.reading-journey-data-container img {
+  width: 76px;
+}
+
+.reading-journey-data-container p {
+  font-size: var(--fs-18);
+  letter-spacing: var(--letter-spacing-1);
+  line-height: var(--line-height-130);
+}
