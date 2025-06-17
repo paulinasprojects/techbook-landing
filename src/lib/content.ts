@@ -60,3 +60,42 @@ export const readingJourneyData = [
     text: "Attend exclusive meetups",
   },
 ];
+
+export const membershipPrices = [
+  {
+    id: 1,
+    name: "Starter",
+    price: "$19",
+    perks: [
+      {
+        perk1: "1 book /month",
+        perk2: "Online forums",
+      },
+    ],
+    buttonText: "Subscribe now",
+  },
+  {
+    id: 2,
+    name: "Pro",
+    price: "$29",
+    perks: [
+      {
+        perk1: "2 book /month",
+        perk2: "Virtual meetups",
+      },
+    ],
+    buttonText: "Subscribe now",
+  },
+  {
+    id: 3,
+    name: "Enterprise",
+    price: "Custom",
+    perks: [
+      {
+        perk1: "Team access",
+        perk2: "Private sessions",
+      },
+    ],
+    buttonText: "Talk to us",
+  },
+];
