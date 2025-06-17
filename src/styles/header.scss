@@ -1,12 +1,19 @@
+@import "./responsive.scss";
+
 .header-main-container {
   background: url("src/assets/bg-pattern.svg");
   background-repeat: repeat;
   background-color: var(--neutral-100);
-  max-width: 1440px;
 }
 
 .header-container {
   padding-top: 32px;
   padding-bottom: 80px;
   padding-left: 135px;
+
+  @include md {
+    padding-left: 32px;
+    padding-bottom: 64px;
+  }
+
 }

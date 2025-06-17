@@ -1,3 +1,5 @@
+@import "./responsive.scss";
+
 .reading-journey-main-container {
   margin: auto;
    background: url("src/assets/bg-pattern.svg");
@@ -7,8 +9,17 @@
    padding-bottom: 80px;
    padding-left: 60px;
    padding-right: 60px;
-   max-width: 1170px;
    border-radius: var(--border-radius-12);
+
+   @include md {
+    margin-left: 32px;
+    margin-right: 32px;
+   }
+
+   @include ms {
+    margin-left: 32px;
+    margin-right: 32px;
+   }
 }
 
 .reading-journey-main-container h2 {
@@ -17,6 +28,14 @@
   font-weight: var(--fw-semibold);
   letter-spacing: var(--letter-spacing-5);
   line-height: var(--line-height-120);
+
+   @include md {
+    text-align: center;
+  }
+
+  @include ms {
+    text-align: left;
+  }
 }
 
 .reading-journey-content-container {
@@ -26,6 +45,10 @@
 .reading-journey-data-container {
   display: flex;
   align-items: center;
+
+  @include ms {
+    gap: 20px;
+  }
 }
 
 .reading-journey-data-container li {
@@ -38,6 +61,14 @@
   display: flex;
   align-items: center;
   gap: 107px;
+
+  @include md {
+    gap: 60px;
+  }
+
+   @include ms {
+    gap: 20px;
+  }
 }
 
 .reading-journey-data-container span {
@@ -46,6 +77,10 @@
   border-radius: var(--border-radius-4);
   padding-block: 8px;
   padding-inline: 12px;
+
+  @include ms {
+    font-size: var(--fs-16);
+  }
 }
 
 .reading-journey-data-container img {

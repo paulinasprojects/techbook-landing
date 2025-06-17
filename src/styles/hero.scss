@@ -1,9 +1,17 @@
+@import "./responsive.scss";
+
 .hero-main-container {
   padding-left: 135px;
   padding-right: 135px;
-   padding-bottom: 80px;
+  padding-bottom: 80px;
   display: flex;
   gap: 64px;
+
+  @include md {
+    padding-left: 32px;
+    padding-right: 32px;
+    flex-direction: column;
+  }
 }
 
 .hero-main-title {
@@ -16,6 +24,10 @@
   line-height: var(--line-height-120);
   font-weight: var(--fw-bold);
   margin-top: 58px;
+
+  @include md {
+    margin-top: 0;
+  }
 }
 
 .hero-main-description {
@@ -25,6 +37,12 @@
   font-size: var(--fs-20);
   line-height: var(--line-height-140);
   letter-spacing: var(--letter-spacing-5);
+}
+
+.hero-main-description br {
+  @include md {
+    display: none;
+  }
 }
 
 .hero-main-button {

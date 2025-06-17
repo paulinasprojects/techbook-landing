@@ -4,6 +4,10 @@
   padding-top: 80px;
   background-color: var(--neutral-900);
   text-align: center;
+
+   @include md {
+    padding-top: 64px; 
+  }
 }
 
 .footer-main-content-container {
@@ -90,6 +94,10 @@
 
 .footer-main-links-container {
   margin-inline: 135px;
+
+  @include md {
+    margin-inline: 32px;
+  }
 }
 
 .footer-main-links-container hr {

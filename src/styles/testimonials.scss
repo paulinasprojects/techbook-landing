@@ -7,6 +7,16 @@
   flex-direction: column;
   gap: 32px;
   margin-bottom: 120px;
+
+  @include md {
+    margin-bottom: 80px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  
+  @include ms {
+    align-items: start;
+  }
 }
 
 .testimonials-stars {
@@ -20,6 +30,14 @@
   font-weight: var(--fw-semibold);
   line-height: var(--line-height-130);
   letter-spacing: var(--letter-spacing-1);
+
+   @include md {
+    text-align: center;
+  }
+
+  @include ms {
+    text-align: left;
+  }
 }
 
 .testimonial-author {
