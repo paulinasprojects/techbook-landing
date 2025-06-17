@@ -1,0 +1,32 @@
+@import "./responsive.scss";
+
+.testimonials-main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 120px;
+}
+
+.testimonials-stars {
+  display: flex;
+}
+
+.testimonial-text {
+  text-align: center;
+  font-size: var(--fs-34);
+  color: var(--neutral-900);
+  font-weight: var(--fw-semibold);
+  line-height: var(--line-height-130);
+  letter-spacing: var(--letter-spacing-1);
+}
+
+.testimonial-author {
+  color: var(--neutral-700);
+  font-size: var(--fs-20);
+  line-height: var(--line-height-140);
+  font-family: var(--ff-inter);
+  font-weight: 400;
+  letter-spacing: var(--letter-spacing-5);
+}

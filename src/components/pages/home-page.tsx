@@ -4,6 +4,7 @@ import { Hero } from "../hero"
 import { MembershipOptions } from "../membership-options"
 import { ReadGrowSection } from "../read-grow-section"
 import { ReadingJourney } from "../reading-journey"
+import { Testimonials } from "../testimonials"
 
 export const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ export const Homepage = () => {
       <AverageBookClub/>
       <ReadingJourney/>
       <MembershipOptions/>
+      <Testimonials/>
     </div>
   )
 }
