@@ -1,4 +1,5 @@
 import { AverageBookClub } from "../average-book-club"
+import { Footer } from "../common/footer"
 import { Header } from "../common/header"
 import { Hero } from "../hero"
 import { MembershipOptions } from "../membership-options"
@@ -17,6 +18,7 @@ export const Homepage = () => {
       <ReadingJourney/>
       <MembershipOptions/>
       <Testimonials/>
+      <Footer/>
     </div>
   )
 }
