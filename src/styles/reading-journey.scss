@@ -1,14 +1,15 @@
 @import "./responsive.scss";
 
 .reading-journey-main-container {
-  margin: auto;
    background: url("src/assets/bg-pattern.svg");
-  background-repeat: repeat;
+   background-repeat: repeat;
    background-color: var(--neutral-100);
    padding-top: 80px;
    padding-bottom: 80px;
    padding-left: 60px;
    padding-right: 60px;
+   margin-left: 135px;
+   margin-right: 135px;
    border-radius: var(--border-radius-12);
 
    @include md {
@@ -17,9 +18,18 @@
    }
 
    @include ms {
+    padding-left: 30px;
+    padding-right: 30px;
     margin-left: 32px;
     margin-right: 32px;
-   }
+  }
+
+  @include sm {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 .reading-journey-main-container h2 {
@@ -36,6 +46,11 @@
   @include ms {
     text-align: left;
   }
+
+  @include sm {
+    font-size: var(--fs-34);
+    text-align: left;
+  }
 }
 
 .reading-journey-content-container {
@@ -48,6 +63,12 @@
 
   @include ms {
     gap: 20px;
+  }
+
+  @include sm {
+   flex-direction: column;
+   align-items: start;
+   gap: 20px;
   }
 }
 
@@ -79,12 +100,16 @@
   padding-inline: 12px;
 
   @include ms {
-    font-size: var(--fs-16);
+    font-size: var(--fs-14);
   }
 }
 
 .reading-journey-data-container img {
   width: 76px;
+
+  @include sm {
+    display: none;
+  }
 }
 
 .reading-journey-data-container p {

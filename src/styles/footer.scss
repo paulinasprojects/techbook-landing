@@ -8,6 +8,12 @@
    @include md {
     padding-top: 64px; 
   }
+
+  @include sm {
+    padding-top: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 .footer-main-content-container {
@@ -24,6 +30,18 @@
  font-weight: var(--fw-semibold);
  letter-spacing: var(--letter-spacing-2);
  color: var(--neutral-50);
+
+ @include sm {
+  font-size: var(--fs-34);
+ }
+}
+
+.footer-cta-text br {
+  display: block;
+
+  @include sm {
+    display: none;
+  }
 }
 
 .footer-button {
@@ -45,6 +63,11 @@
   line-height: var(--line-height-130);
   font-weight: var(--fw-semibold);
   letter-spacing: var(--letter-spacing-1);
+
+  @include sm {
+    font-size: var(--fs-16);
+    width: 100%;
+  }
 }
 
 .footer-button:hover {
@@ -111,6 +134,11 @@
   align-items: center;
   justify-content: space-between;
   padding-bottom: 24px; 
+
+  @include sm {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 .footer-links p {

@@ -17,6 +17,12 @@
   @include ms {
     align-items: start;
   }
+
+  @include sm {
+    align-items: start;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 .testimonials-stars {
@@ -37,6 +43,12 @@
 
   @include ms {
     text-align: left;
+  }
+
+  @include sm {
+    text-align: left;
+    font-size: var(--fs-24);
+    line-height: var(--line-height-110);
   }
 }
 

@@ -12,6 +12,11 @@
     padding-right: 32px;
     flex-direction: column;
   }
+
+  @include sm {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 .hero-main-title {
@@ -27,6 +32,10 @@
 
   @include md {
     margin-top: 0;
+  }
+
+  @include sm {
+    font-size: var(--fs-38);
   }
 }
 
@@ -61,6 +70,10 @@
   line-height: var(--line-height-130);
   font-weight: var(--fw-semibold);
   letter-spacing: var(--letter-spacing-1);
+
+  @include sm {
+    font-size: var(--fs-16);
+  }
 }
 
 .hero-main-button:hover {

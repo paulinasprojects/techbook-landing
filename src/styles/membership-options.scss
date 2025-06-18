@@ -26,6 +26,12 @@
   @include ms {
     text-align: left;
   }
+
+  @include sm {
+    text-align: left;
+    font-size: var(--fs-34);
+    padding-left: 16px;
+  }
 }
 
 .membership-options-prices-container {
@@ -38,6 +44,11 @@
     padding-left: 32px;
     padding-right: 32px;
   }
+
+  @include sm {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 .membership-option-prices {
@@ -48,6 +59,10 @@
 
    @include ms {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @include sm {
+     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 
